@@ -1,6 +1,6 @@
-# React SPA fallback: all other routes go to index.html
-/*    /index.html   200
-
 # Serve sitemap.xml and robots.txt correctly
 /sitemap.xml    /sitemap.xml    200
 /robots.txt     /robots.txt     200
+
+# React SPA fallback: all other routes go to index.html
+/*              /index.html    200

@@ -4,38 +4,38 @@
 >
 
   <url>
-    <loc>https://YOUR_NETLIFY_URL.netlify.app/</loc>
+    <loc>https://ariftrafficsads.netlify.app//</loc>
     <lastmod>2026-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://YOUR_NETLIFY_URL.netlify.app/#about</loc>
+    <loc>https://ariftrafficsads.netlify.app//#about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://YOUR_NETLIFY_URL.netlify.app/#what-i-do</loc>
+    <loc>https://ariftrafficsads.netlify.app//#what-i-do</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://YOUR_NETLIFY_URL.netlify.app/#skills</loc>
+    <loc>https://ariftrafficsads.netlify.app//#skills</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://YOUR_NETLIFY_URL.netlify.app/#experience</loc>
+    <loc>https://ariftrafficsads.netlify.app//#experience</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://YOUR_NETLIFY_URL.netlify.app/#contact</loc>
+    <loc>https://ariftrafficsads.netlify.app//#contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

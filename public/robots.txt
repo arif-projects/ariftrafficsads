@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR_NETLIFY_URL.netlify.app/sitemap.xml
+Sitemap: https://ariftrafficsads.netlify.app//sitemap.xml
 

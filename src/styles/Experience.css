@@ -1,0 +1,108 @@
+.experience-section {
+  width: 100%;
+  padding: 100px 0;
+  background: #0a0f1f;
+  text-align: center;
+}
+
+/* Section Title */
+.experience-title {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 600;
+  color: #e5e7eb; /* cool gray */
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 30px;
+  padding-bottom: 12px;
+}
+
+/* Experience Card */
+.experience-card {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  border-radius: 14px;
+  padding: 30px;
+  border: 2px solid rgba(56, 189, 248, 0.3);
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.15);
+  transition: 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.25);
+}
+
+/* Header */
+.experience-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.experience-header h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #38bdf8;
+  margin: 0;
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.5);
+}
+
+/* Icon */
+.experience-icon {
+  font-size: 1.8rem;
+  color: #0ea5e9;
+  text-shadow: 0 0 6px rgba(14, 165, 233, 0.7);
+}
+
+/* Date */
+.experience-date {
+  font-size: 1rem;
+  font-family: Inter;
+  color: #9ca3af;
+  margin-bottom: 20px;
+}
+
+/* Responsibilities List — 2 Column Grid */
+.experience-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 30px;
+  text-align: left;
+}
+
+.experience-list li {
+  font-size: 1rem;
+  font-family: Inter;
+  color: #d1d5db;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 20px;
+}
+
+/* Neon dot */
+.experience-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #0ea5e9;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .experience-list {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-card {
+    padding: 25px 20px;
+  }
+}

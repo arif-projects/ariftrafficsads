@@ -1,0 +1,50 @@
+/* Glassmorphism + Neon Navbar */
+.glass-navbar {
+  backdrop-filter: blur(14px);
+  background: rgba(20, 20, 30, 0.35);
+  border-bottom: 1px solid rgba(0, 255, 255, 0.15);
+  transition: transform 0.35s ease, background 0.3s ease;
+  padding: 10px 0;
+}
+
+/* Show/Hide Behaviour */
+.nav-visible {
+  transform: translateY(0);
+}
+
+.nav-hidden {
+  transform: translateY(-100%);
+}
+
+/* Brand */
+.nav-brand {
+  color: #00eaff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 0 0 8px #00eaff;
+}
+
+/* Nav Links */
+.neon-link {
+  font-size: 0.95rem;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #d4d4d4;
+  transition: 0.25s ease;
+}
+
+.neon-link:hover {
+  color: #00eaff;
+  text-shadow: 0 0 8px #00eaff;
+}
+
+/* Mobile Toggle */
+.nav-toggle {
+  border: none !important;
+  filter: drop-shadow(0 0 4px #00eaff);
+}
+
+.nav-toggle:focus {
+  box-shadow: none !important;
+}

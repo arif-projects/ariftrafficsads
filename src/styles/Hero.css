@@ -1,0 +1,133 @@
+.hero-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #0a0f1f;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* NAME */
+.hero-name {
+  font-size: clamp(2.8rem, 6vw, 4.2rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-hi {
+  color: #9ca3af;
+}
+
+.hero-fullname {
+  color: #38bdf8;
+  text-shadow: 0 0 12px rgba(56, 189, 248, 0.7);
+}
+
+/* SUBTITLE */
+.hero-subtitle {
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  color: #d1d5db;
+  margin-top: 10px;
+}
+
+.hero-static-role {
+  color: #d1d5db;
+}
+
+.hero-divider {
+  margin: 0 4px;
+}
+
+.hero-rotating-role {
+  color: #38bdf8;
+  font-weight: 600;
+  animation: fadeSlide 2.2s ease-in-out;
+}
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+
+/* DESCRIPTION */
+.hero-description {
+  font-size: 1.05rem;
+  color: #d1d5db;
+  line-height: 1.6;
+  margin-top: 20px;
+  max-width: 560px;
+}
+
+/* BUTTONS */
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.star-button {
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: white;
+  background: transparent;
+  border: 2px solid #38bdf8;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.5);
+  transition: 0.3s ease;
+}
+
+.star-button:hover {
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.8);
+  transform: translateY(-3px);
+}
+
+.neon-button {
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.neon-button:hover {
+  background: #38bdf8;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.9);
+  transform: translateY(-3px);
+}
+
+/* IMAGE — NO SHAPE, BLENDED EDGES */
+.hero-image {
+  width: 100%;
+  max-width: 430px;
+
+  /* edge blending */
+  filter: drop-shadow(0 0 25px rgba(56, 189, 248, 0.35)) blur(0);
+
+  /* soft fade to background */
+  mask-image: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 1) 65%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer-content">
         <p className="footer-name">© 2025 — Md. Ariful Haque Hridoy</p>
         <p className="footer-role">
-          Digital Advertising Executive | AdOps Specialist | Portfolio Website
+          Digital Advertising Executive | Ad Trafficking & Execution Specialist | Portfolio Website
         </p>
       </div>
     </footer>
